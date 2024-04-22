@@ -26,8 +26,8 @@ def index():
         db.commit()
         # return final_database_date
     cur = db.execute('''select date_log.entry_date, sum(food.protein) as protein, sum(food.carbohydrates) as carbohydrates, sum(food.fat) as fat, sum(food.calories) as calories from 
-                     date_log join food_date on food_date.log_date_id = date_log.id 
-                     join food on food.id = food_date.food_id group by date_log.id order by date_log.entry_date desc''')
+                     date_log left join food_date on food_date.log_date_id = date_log.id 
+                     left join food on food.id = food_date.food_id group by date_log.id order by date_log.entry_date desc''')
     results = cur.fetchall()
 
     # This will formate the date shown in the page from %Y%m%d to %B %d, %Y. 
@@ -61,7 +61,7 @@ def days(date):
         db.commit()
 
     unformatted_date = datetime.strptime(str(date_result['entry_date']), '%Y%m%d')
-    formated_date = datetime.strftime(unformatted_date, '%B %d, %Y')
+    formated_dates = datetime.strftime(unformatted_date, '%B %d, %Y')
 
     food_cur = db.execute('select id, name from food')
     food_results = food_cur.fetchall()
@@ -82,8 +82,7 @@ def days(date):
         totals['fat'] += food['fat']
         totals['calories'] += food['calories']
 
-    return render_template('days.html',entry_date=date_result['entry_date'], formated_date = formated_date,\
-                            food_results=food_results, log_results=log_results, totals=totals)
+    return render_template('days.html',entry_date=date_result['entry_date'], formated_date = formated_dates, food_results=food_results, log_results=log_results, totals=totals)
 
 # This is for days page
 @app.route('/foodadd', methods=['GET','POST'])
