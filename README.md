@@ -2,10 +2,10 @@
 Food Tracker is a web application developed to help users track their daily food intake and monitor nutritional information such as protein, carbohydrates, and fat. This application was built using Flask, a lightweight and versatile Python web framework, which facilitates rapid development and easy integration with SQLite, a self-contained, serverless, zero-configuration SQL database engine.
 
 ## Features
--**User-friendly Interface**: Designed with HTML and CSS for a clean and intuitive interface, making it easy to input and review food data.
--**Daily Food Entries:** Users can log food items along with the date, food name, and nutritional details including protein, carbohydrates, and fat.
--**Calorie Calculation:** Automatically calculates the total calorie count for each day based on the nutritional information provided.
--**Review and Analysis:** Users can review their food entries by date, allowing them to track their dietary habits over time.
+- **User-friendly Interface**: Designed with HTML and CSS for a clean and intuitive interface, making it easy to input and review food data.
+- **Daily Food Entries:** Users can log food items along with the date, food name, and nutritional details including protein, carbohydrates, and fat.
+- **Calorie Calculation:** Automatically calculates the total calorie count for each day based on the nutritional information provided.
+- **Review and Analysis:** Users can review their food entries by date, allowing them to track their dietary habits over time.
 
 ## Technologies Used
 -**Flask:** Provides the web framework for developing the application.
