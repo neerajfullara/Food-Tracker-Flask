@@ -8,18 +8,18 @@ Food Tracker is a web application developed to help users track their daily food
 - **Review and Analysis:** Users can review their food entries by date, allowing them to track their dietary habits over time.
 
 ## Technologies Used
--**Flask:** Provides the web framework for developing the application.
--**SQLite3:** Manages data storage and retrieval in a lightweight, serverless SQL database.
--**HTML:** Structures the content of the web pages.
--**CSS:** Styles the web pages to ensure a visually appealing and user-friendly experience.
--**Python:** The core programming language used for backend development and data processing.
+- **Flask:** Provides the web framework for developing the application.
+- **SQLite3:** Manages data storage and retrieval in a lightweight, serverless SQL database.
+- **HTML:** Structures the content of the web pages.
+- **CSS:** Styles the web pages to ensure a visually appealing and user-friendly experience.
+- **Python:** The core programming language used for backend development and data processing.
 
 ## Installation
 1. **Clone the Repository:**
-  '''bash 
+  ' ' 'bash 
   git clone https://github.com/yourusername/food-tracker.git
   cd food-tracker
-  '''
+' ' "
 
 **Set Up Virtual Environment:**
 
