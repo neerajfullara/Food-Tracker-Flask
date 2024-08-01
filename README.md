@@ -16,10 +16,10 @@ Food Tracker is a web application developed to help users track their daily food
 
 ## Installation
 1. **Clone the Repository:**
-  ' ' 'bash 
+```bash 
   git clone https://github.com/yourusername/food-tracker.git
   cd food-tracker
-' ' "
+```
 
 **Set Up Virtual Environment:**
 
