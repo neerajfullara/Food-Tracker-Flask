@@ -17,7 +17,7 @@ Food Tracker is a web application developed to help users track their daily food
 ## Installation
 1. **Clone the Repository:**
 ```bash 
-  git clone https://github.com/yourusername/food-tracker.git
+  git clone https://github.com/neerajfullara/food-tracker.git
   cd food-tracker
 ```
 
@@ -28,36 +28,39 @@ Food Tracker is a web application developed to help users track their daily food
 ```
 
 3. **Install Dependencies:**
-
+```bash
   pip install -r requirements.txt
+```
 
-**Initialize the Database:**
-
+4. **Initialize the Database:**
+```bash
   flask init-db
+```
 
-**Run the Application:**
-
+5. **Run the Application:**
+```bash
   flask run
+```
 
 ## Usage
-**Log Food Entries:** Navigate to the food entry page and input details such as the date, food name, protein, carbohydrates, and fat.
-**View Daily Totals:** Go to the daily summary page to see the total calories and nutritional breakdown for each day.
-**Review Historical Data:** Use the review feature to look back at past entries and analyze dietary patterns.
+1. **Log Food Entries:** Navigate to the food entry page and input details such as the date, food name, protein, carbohydrates, and fat.
+2. **View Daily Totals:** Go to the daily summary page to see the total calories and nutritional breakdown for each day.
+3. **Review Historical Data:** Use the review feature to look back at past entries and analyze dietary patterns.
 
 ## Contributing
 We welcome contributions from the community. To contribute:
 
-Fork the repository.
-Create a new branch.
-
+1. Fork the repository.
+2. Create a new branch.
+```bash
   git checkout -b feature-branch
-
-Make your changes and commit them with a clear message.
-
+```
+3. Make your changes and commit them with a clear message.
+```bash
   git commit -m "Description of your changes"
-
-Push to the branch.
-
+```
+4. Push to the branch.
+```bash
   git push origin feature-branch
-
-Create a pull request on GitHub.
+```
+5. Create a pull request on GitHub.
