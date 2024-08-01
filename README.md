@@ -21,12 +21,13 @@ Food Tracker is a web application developed to help users track their daily food
   cd food-tracker
 ```
 
-**Set Up Virtual Environment:**
-
+2. **Set Up Virtual Environment:**
+```bash
   python3 -m venv venv
   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
 
-**Install Dependencies:**
+3. **Install Dependencies:**
 
   pip install -r requirements.txt
 
