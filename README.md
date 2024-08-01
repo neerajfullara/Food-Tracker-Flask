@@ -2,23 +2,24 @@
 Food Tracker is a web application developed to help users track their daily food intake and monitor nutritional information such as protein, carbohydrates, and fat. This application was built using Flask, a lightweight and versatile Python web framework, which facilitates rapid development and easy integration with SQLite, a self-contained, serverless, zero-configuration SQL database engine.
 
 ## Features
-**User-friendly Interface**: Designed with HTML and CSS for a clean and intuitive interface, making it easy to input and review food data.
-**Daily Food Entries:** Users can log food items along with the date, food name, and nutritional details including protein, carbohydrates, and fat.
-**Calorie Calculation:** Automatically calculates the total calorie count for each day based on the nutritional information provided.
-**Review and Analysis:** Users can review their food entries by date, allowing them to track their dietary habits over time.
+-**User-friendly Interface**: Designed with HTML and CSS for a clean and intuitive interface, making it easy to input and review food data.
+-**Daily Food Entries:** Users can log food items along with the date, food name, and nutritional details including protein, carbohydrates, and fat.
+-**Calorie Calculation:** Automatically calculates the total calorie count for each day based on the nutritional information provided.
+-**Review and Analysis:** Users can review their food entries by date, allowing them to track their dietary habits over time.
 
 ## Technologies Used
-**Flask:** Provides the web framework for developing the application.
-**SQLite3:** Manages data storage and retrieval in a lightweight, serverless SQL database.
-**HTML:** Structures the content of the web pages.
-**CSS:** Styles the web pages to ensure a visually appealing and user-friendly experience.
-**Python:** The core programming language used for backend development and data processing.
+-**Flask:** Provides the web framework for developing the application.
+-**SQLite3:** Manages data storage and retrieval in a lightweight, serverless SQL database.
+-**HTML:** Structures the content of the web pages.
+-**CSS:** Styles the web pages to ensure a visually appealing and user-friendly experience.
+-**Python:** The core programming language used for backend development and data processing.
 
 ## Installation
-**Clone the Repository:**
-
+1. **Clone the Repository:**
+  '''bash
   git clone https://github.com/yourusername/food-tracker.git
   cd food-tracker
+  '''
 
 **Set Up Virtual Environment:**
 
